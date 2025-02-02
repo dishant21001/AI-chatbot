@@ -1,0 +1,14 @@
+# Ignore virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Ignore environment variables (API keys, secrets)
+.env
+
+# Ignore logs and system files
+*.log
+.DS_Store
+
+# Ignore Streamlit cache (if using Streamlit)
+.streamlit/
